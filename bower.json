@@ -3,7 +3,16 @@
   "version": "0.0.1",
   "dependencies": {
     "angular": "^1.5.0",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "bootstrap-css": "^3.3.6",
+    "angular-translate": "^2.11.1"
+  },
+  "overrides": {
+    "bootstrap-css": {
+      "main": [
+        "css/bootstrap.min.css"
+      ]
+    }
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0"
