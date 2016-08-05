@@ -24,11 +24,20 @@ angular
     });
 
     // Español (ES)
-    $translateProvider.translations('en_ES', {
+    $translateProvider.translations('es_ES', {
       'allo_allo': 'Hola, hola!',
       'always_a_pleasure': 'Mi gusta churritos. :-)'
     });
     
     // Definimos o idioma padrão
     $translateProvider.preferredLanguage('pt_BR');
+
+    // Se você preferir que o idioma padrão seja detectado pelo idioma do browser
+    // use as linhas abaixo:
+    //
+    // $translateProvider
+    //  .uniformLanguageTag()
+    //  .determinePreferredLanguage();
+
+    
   }
