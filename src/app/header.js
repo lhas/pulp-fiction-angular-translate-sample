@@ -9,8 +9,8 @@
       controller: HeaderController
     });
 
-    HeaderController.$inject = ['$translate'];
-    function HeaderController($translate) {
+    HeaderController.$inject = ['$translate', '$state'];
+    function HeaderController($translate, $state) {
       var vm = this;
 
       vm.changeLanguage = changeLanguage;
